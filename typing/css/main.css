@@ -1,0 +1,86 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: relative;
+  font-size: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url(img/IMG_4uv3pe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* height: 160px; */
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+.tab{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  border: 1px white solid;
+}
+.tab li{
+  padding: 10px;
+  width: 120px;
+  height: 20px;
+  display: inline-block;
+  font-size: 18px;
+}
+.tab li:hover{
+  background-color: #666666;
+}
+.tab a{
+  color: white;
+  text-decoration: none;
+}
+#main_content{
+  position: relative;
+  width: 100%;
+  height: 2000px;
+  background-image: url(img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(0,0,0,0.6);
+}
+.content{
+  margin: auto;
+  width: 800px;
+  height: auto;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border: 1px white solid;
+}
+.button li{
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  display: inline-block;
+  border: 2px white ridge;
+}
+.button a{
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+.button li:hover{
+  background-color: #666666;
+}

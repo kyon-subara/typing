@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <meta charset="utf-8">
+    <title>タイピングゲーム</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/game.css">
+
+    <script>
+      var mode = 'e';
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+  <body onload="gameSet()">
+
+    <header>
+      <h1 id="header">タイピングゲーム</h1>
+      <nav class="tab">
+        <ul>
+          <li><a href="index.html">top</a></li>
+          <li><a href="">game</a></li>
+          <li><a href="help.html">help</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="main_content">
+      <br>
+      <div class="content">
+        こんにちは<br>
+        簡単な問題のタイピングをやってみましょう<br>
+        テキストの中身は書いているときに適当に思いついたものです<br>
+        こんなテキスト入れてほしい！って要望があれば相談ください^^<br>
+      </div>
+      <br>
+      <div id="game">
+        <p id="description"></p>
+        <p id="mondai"></p>
+        <p id="input"></p>
+        <p id="missType"></p>
+
+        <ul class="button">
+          <li><a href="#" onclick="resetGame()">reset</a></li><br>
+        </ul>
+
+      </div>
+      <br>
+      <div class="content">
+        <h1>スコア指標</h1>
+        <h2>500～</h2>
+        めちゃくちゃスゴイ<br>
+        <h2>450～499</h2>
+        スゴイ<br>
+        <h2>350～449</h2>
+        上を目指していこう<br>
+        <h2>250～349</h2>
+        頑張ろう<br>
+        <h2>～249</h2>
+        もっとタイピングで遊ぼう<br>
+      </div>
+    </div>
+
+
+  </body>
+</html>
